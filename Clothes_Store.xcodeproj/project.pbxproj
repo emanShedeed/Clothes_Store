@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11DA94EDCB7BE1553D9C71BD /* Pods_Clothes_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9347043EB114762D984678 /* Pods_Clothes_Store.framework */; };
+		E705452B2164B83000115FE1 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705452A2164B83000115FE1 /* CategoryModel.swift */; };
+		E705452D2164B86A00115FE1 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705452C2164B86A00115FE1 /* ProductModel.swift */; };
 		E7571CE0216396C800424550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7571CDF216396C800424550 /* AppDelegate.swift */; };
-		E7571CE2216396C800424550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7571CE1216396C800424550 /* ViewController.swift */; };
+		E7571CE2216396C800424550 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7571CE1216396C800424550 /* CategoriesVC.swift */; };
 		E7571CE5216396C800424550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7571CE3216396C800424550 /* Main.storyboard */; };
 		E7571CE7216396C900424550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7571CE6216396C900424550 /* Assets.xcassets */; };
 		E7571CEA216396C900424550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7571CE8216396C900424550 /* LaunchScreen.storyboard */; };
+		E774CFF32164AB6B0006BFCC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774CFF22164AB6B0006BFCC /* CategoryCell.swift */; };
+		E774CFF52164ABAA0006BFCC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E774CFF42164ABAA0006BFCC /* Default-568h@2x.png */; };
+		E79AA2D0216B6BE600D38277 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AA2CF216B6BE600D38277 /* ProductsVC.swift */; };
+		E79AA2D2216B792100D38277 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AA2D1216B792100D38277 /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DA62375D7BCCBD36F9F127F /* Pods-Clothes_Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clothes_Store.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clothes_Store/Pods-Clothes_Store.debug.xcconfig"; sourceTree = "<group>"; };
+		DB9347043EB114762D984678 /* Pods_Clothes_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clothes_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E705452A2164B83000115FE1 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		E705452C2164B86A00115FE1 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		E7571CDC216396C800424550 /* Clothes_Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clothes_Store.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7571CDF216396C800424550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7571CE1216396C800424550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7571CE1216396C800424550 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		E7571CE4216396C800424550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7571CE6216396C900424550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7571CE9216396C900424550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7571CEB216396C900424550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E774CFF22164AB6B0006BFCC /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		E774CFF42164ABAA0006BFCC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E79AA2CF216B6BE600D38277 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		E79AA2D1216B792100D38277 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		FEA38371A9630FB87967D1A2 /* Pods-Clothes_Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clothes_Store.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clothes_Store/Pods-Clothes_Store.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DA94EDCB7BE1553D9C71BD /* Pods_Clothes_Store.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B1D55389FF0EA08F274C1C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB9347043EB114762D984678 /* Pods_Clothes_Store.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		844AAA9990F41E5A7CF58380 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA62375D7BCCBD36F9F127F /* Pods-Clothes_Store.debug.xcconfig */,
+				FEA38371A9630FB87967D1A2 /* Pods-Clothes_Store.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E7571CD3216396C800424550 = {
 			isa = PBXGroup;
 			children = (
+				E774CFF42164ABAA0006BFCC /* Default-568h@2x.png */,
 				E7571CDE216396C800424550 /* Clothes_Store */,
 				E7571CDD216396C800424550 /* Products */,
+				844AAA9990F41E5A7CF58380 /* Pods */,
+				4B1D55389FF0EA08F274C1C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,51 @@
 		E7571CDE216396C800424550 /* Clothes_Store */ = {
 			isa = PBXGroup;
 			children = (
-				E7571CDF216396C800424550 /* AppDelegate.swift */,
-				E7571CE1216396C800424550 /* ViewController.swift */,
-				E7571CE3216396C800424550 /* Main.storyboard */,
-				E7571CE6216396C900424550 /* Assets.xcassets */,
-				E7571CE8216396C900424550 /* LaunchScreen.storyboard */,
+				E774CFEC2164A7A40006BFCC /* Model */,
+				E774CFED2164A7BE0006BFCC /* View */,
+				E774CFEE2164A7C70006BFCC /* Controller */,
+				E774CFEF2164A7F90006BFCC /* SupportFiles */,
 				E7571CEB216396C900424550 /* Info.plist */,
 			);
 			path = Clothes_Store;
+			sourceTree = "<group>";
+		};
+		E774CFEC2164A7A40006BFCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E705452A2164B83000115FE1 /* CategoryModel.swift */,
+				E705452C2164B86A00115FE1 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E774CFED2164A7BE0006BFCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7571CE3216396C800424550 /* Main.storyboard */,
+				E774CFF22164AB6B0006BFCC /* CategoryCell.swift */,
+				E79AA2D1216B792100D38277 /* ProductCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E774CFEE2164A7C70006BFCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7571CE1216396C800424550 /* CategoriesVC.swift */,
+				E79AA2CF216B6BE600D38277 /* ProductsVC.swift */,
+				E7571CDF216396C800424550 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E774CFEF2164A7F90006BFCC /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E7571CE6216396C900424550 /* Assets.xcassets */,
+				E7571CE8216396C900424550 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7571CEE216396C900424550 /* Build configuration list for PBXNativeTarget "Clothes_Store" */;
 			buildPhases = (
+				8D23633A35D9BE56A4DB9147 /* [CP] Check Pods Manifest.lock */,
 				E7571CD8216396C800424550 /* Sources */,
 				E7571CD9216396C800424550 /* Frameworks */,
 				E7571CDA216396C800424550 /* Resources */,
+				22FC69A257E4C79476D4D3D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7571CEA216396C900424550 /* LaunchScreen.storyboard in Resources */,
+				E774CFF52164ABAA0006BFCC /* Default-568h@2x.png in Resources */,
 				E7571CE7216396C900424550 /* Assets.xcassets in Resources */,
 				E7571CE5216396C800424550 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +207,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22FC69A257E4C79476D4D3D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Clothes_Store/Pods-Clothes_Store-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clothes_Store/Pods-Clothes_Store-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D23633A35D9BE56A4DB9147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clothes_Store-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7571CD8216396C800424550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7571CE2216396C800424550 /* ViewController.swift in Sources */,
+				E7571CE2216396C800424550 /* CategoriesVC.swift in Sources */,
+				E705452B2164B83000115FE1 /* CategoryModel.swift in Sources */,
+				E79AA2D0216B6BE600D38277 /* ProductsVC.swift in Sources */,
 				E7571CE0216396C800424550 /* AppDelegate.swift in Sources */,
+				E774CFF32164AB6B0006BFCC /* CategoryCell.swift in Sources */,
+				E79AA2D2216B792100D38277 /* ProductCell.swift in Sources */,
+				E705452D2164B86A00115FE1 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +401,7 @@
 		};
 		E7571CEF216396C900424550 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA62375D7BCCBD36F9F127F /* Pods-Clothes_Store.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +420,7 @@
 		};
 		E7571CF0216396C900424550 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA38371A9630FB87967D1A2 /* Pods-Clothes_Store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
